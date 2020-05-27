@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="log">
+            <img src="1.jpg" style="width: 100%; height: 100%; display: flex;">
+            <div style="position: absolute; background-color: gray; display: flex; width: 80%; height: 80%; opacity: 0.7; justify-content: center; flex-direction: column; align-items: center; line-height: 20px;">
+                <h1 style="color: white; display: flex; line-height: 60px;">LOGIN</h1>
+                <input type="text" placeholder="Email" value="" id="signem" size="45" style="padding: 8px; border-style: none; border: none;">
+                <p id="signmail"></p>
+                <input type="password" placeholder="Password" value="" id="signpassword" size="45" style="padding: 8px; border-style: none; border: none;">
+                <p id="signpass"></p>
+                <p id="signres"></p>
+                <button id="login">LOGIN</button>
+            </div>
+            <div id="sign">
+                <img src="2.jpg" style="width: 100%; height: 100%; display: flex;">
+                <div id="user">
+                    <h1 style="color: white; display: flex;">SIGN UP</h1>
+                    <input type="text" placeholder="Email" value="" id="em" size="45" style="padding: 8px; border-style: none; border: none;">
+                    <p id="failemail"></p>
+                    <input type="text" placeholder="Username" value="" id="name" size="45" style="padding: 8px; border-style: none; border: none;">
+                    <p id="failname"></p>
+                    <input type="password" placeholder="Password" value="" id="pass" size="45" style="padding: 8px; border-style: none; border: none;">
+                    <p id="failpass"></p>
+                    <input type="password" placeholder="Confirm Password" value="" id="copa" size="45" style="padding: 8px; border-style: none; border: none;">
+                    <p id="failcopa"></p>
+                    <p id="finalresult"></p>
+                    <button id="signup">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

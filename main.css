@@ -1,0 +1,55 @@
+@media (min-width:800px) {
+    body{
+    background-image: url(https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+} }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px) {
+    body{
+        background-image: url(https://images.unsplash.com/photo-1530488079797-b844f28f1230?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+}}
+@media (min-width:800px) {
+    #log{
+        width: 30%; height: 390px; display: flex; align-items: center; position: relative; top: 230px; left: 200px; justify-content: center;
+    }
+    #sign{
+        width: 450px; height: 500px; display: flex; align-items: center; position: absolute; justify-content: center; left: 470px;
+    }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px) {
+    #log{
+        width: 50%; height: 300px; display: flex; align-items: center; position: relative; top: 230px; left: 270px; justify-content: center;
+    }
+    #sign{
+        width: 450px; height: 500px; display: flex; align-items: center; position: absolute; justify-content: center; top: 350px; left: 25px;
+    }
+}
+#user{
+    position: absolute; display: flex; width: 90%; height: 90%; flex-direction: column; align-items: center; line-height: 30px;
+}
+#login{
+    background-color: rgb(32, 123, 228); border: none; color: white; padding: 15px 60px; cursor: pointer; margin-bottom: 10px;
+}
+#login:hover{
+    background-color: rgb(11, 53, 243);;
+}
+#signup{
+    background-color: rgb(255, 38, 0); border: none; color: white; padding: 15px 60px; cursor: pointer; margin-bottom: 10px;
+}
+#signup:hover{
+    background-color: red;
+}

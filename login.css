@@ -1,0 +1,85 @@
+div.container{
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+div.row1col1{
+    color: white;
+    width: 27%;
+    height: 40%;
+    background-color: black;
+    opacity: 0.9;
+    margin: 40px;
+    padding: 15px 60px;
+    position: relative;
+    left: 80px;
+    top: 120px;
+}
+p.para{
+    font-size: 18px;
+    width: 80%;
+    line-height: 25px;
+    opacity: 1.0;
+}
+#course{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    padding: 18px 37px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+#course:hover{
+    background-color: rgb(255, 150, 0);
+}
+#contact{
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+    padding: 18px 37px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+#contact:hover{
+    background-color: purple;
+    color: white;
+}
+h1{
+    font-size: 44px;
+}
+
+div.row2col{
+    color: white;
+    width: 15%;
+    height: fit-content;
+    background-color: rgb(64, 25, 206);
+    opacity: 0.9;
+    margin: 20px 40px;
+    padding: 20px 60px 30px 60px;
+    position: relative;
+    left: 80px;
+    top: 110px;
+    float: left;
+}
+div.row2{
+    width: 100%;
+    height: fit-content;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+a:hover{
+    color: black;
+}
+img{
+    width: 15%;
+}
